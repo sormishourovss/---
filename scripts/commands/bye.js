@@ -1,6 +1,6 @@
-  const fs = require("fs");
+	const fs = require("fs");
 module.exports.config = {
-      name: "vĩnh biệt",
+	    name: "vĩnh biệt",
     version: "1.1.0",
     permission: 0,
     credits: "farhan",
@@ -12,16 +12,16 @@ module.exports.config = {
 };
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
-  var { threadID, messageID } = event;
-  if (event.body.indexOf("By")==0 || (event.body.indexOf("by")==0 || (event.body.indexOf("bye")==0 || (event.body.indexOf("Bye")==0)))) {
-    var msg = {
-        body: "আবার কথা হবে 🥰.\n\n~ যেকোনো তথ্যের জন্য আমার id তে নক করতে পারেন 👇\nhttps://www.facebook.com/FarhanIslamImon.official?mibextid=ZbWKwL",
-        attachment: fs.createReadStream(__dirname + `/farhanm4/farhan1.mp4`)
-      }
-            api.sendMessage( msg, threadID, messageID);
+	var { threadID, messageID } = event;
+	if (event.body.indexOf("By")==0 || (event.body.indexOf("by")==0 || (event.body.indexOf("bye")==0 || (event.body.indexOf("Bye")==0)))) {
+		var msg = {
+				body: "👉বাই তো বললে সোজা অফলাইনে যাও, মেয়ে হলে অন্য কারো ইনবক্সে যেও না। গেলে আমার বস্ 𒄬𓆩๛⃝রিফাত‣᭄𓆪 এর ইনবক্সে যাও,😁🙈 .👉আর ছেলে হলে দূরে যাইয়া মর, 😼🥵",
+				attachment: fs.createReadStream(__dirname + `/nayanmp4/farhan1.mp4`)
+			}
+						api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("🥀", event.messageID, (err) => {}, true)
-    }
-  }
-  module.exports.run = function({ api, event, client, __GLOBAL }) {
+		}
+	}
+	module.exports.run = function({ api, event, client, __GLOBAL }) {
 
   }
