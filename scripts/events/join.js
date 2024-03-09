@@ -48,13 +48,13 @@ module.exports.run = async function({ api, event, Users }) {
   if (event.logMessageData.addedParticipants && Array.isArray(event.logMessageData.addedParticipants) && event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     //api.changeNickname(`𝗕𝗢𝗧 ${(!global.config.BOTNAME) ? "Buddy" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 
-    let gifUrl = 'https://i.postimg.cc/wMPWx9Tc/farhan.jpg';
-let gifPath = __dirname + '/Nayan/join/farhan.jpg';
+    let gifUrl = 'https://i.postimg.cc/GhFtzynq/RIFAT.jpg';
+let gifPath = __dirname + '/Nayan/join/RIFAT.jpg';
 
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
     fs.writeFileSync(gifPath, response.data);
-    return api.sendMessage("চলে এসেছি আমি পিচ্চি ফারহান তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চ্ঁলে্ঁ এ্ঁসে্ঁছি্ঁ  আ্ঁমি্ঁ ➤⃚͜͡░⃟̎̎̎̎̐💕কা্ঁনা্ঁ»̶̶͓͓͓̽̽̽»̶̶͓͓͓̽̽̽মা্ঁছি্ঁতে্ঁ🐝⑅⃝✺❥᭄তো্ঁমা্ঁদে্ঁর্ঁ মা্ঁঝে্ঁ😇!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -64,11 +64,11 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER : FARHAN ISLAM 
+DEVELOPER : RIFAT ISLAM
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/Imon.132233
+https://www.facebook.com/REAL.SYSTEM.ERROR.KING
 
 🔵WHATSAPP NUMBER: INBOX`, attachment: fs.createReadStream(gifPath)}, threadID));
 })
