@@ -5,13 +5,13 @@
   "language": "en",
   "notification": true,
   "approval": false,
-  "BOTNAME": "FARHAN-BOT",
+  "BOTNAME": "RIFAT-BOT",
   "PREFIX": "/",
   "OPERATOR": [
     "100069926588234"
   ],
   "ADMINBOT": [
-    "100069926588234",
+    "743289921",
     "100089974857944"
   ],
   "OWNER": ["100000959749712"], 
