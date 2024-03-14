@@ -1,12 +1,13 @@
 module.exports.config = {
-  name: "video2",
-  version: "1.0.0",
-  Permssion: 0,
-  credits: "𝙼𝚁.𝙱𝙾𝚂𝚂 𝙰𝙻𝚅𝙸 𝙲𝙷𝙾𝚆𝙳𝙷𝚄𝚁𝚈",
-  Prefix: false,
-  description: "Xem ảnh reply",
-  Category: "Tiện ích",
-  cooldowns: 5,
+   name: "video2",
+  version: "0.0.2",
+  permission: 0,
+  prefix: true,
+  credits: "Nayan",
+  description: "Rendom video",
+  category: "user",
+  usages: "",
+    cooldowns: 5,
   dependencies: {
     axios: ""
   }
