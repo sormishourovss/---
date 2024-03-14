@@ -60,11 +60,11 @@ module.exports.config = {
         else if ("6" == a.body)
           var  h = "https://b3d9l-ap1.b4d9lap1.repl.co/video/baby";
         else if ("7" == a.body)
-          var  h = "https://b3d9l-ap1.b4d9lap1.repl.co/video/anime";
+          var  h = "https://videos-api--xaikon4y4n.repl.co/video/anime";
         else if ("8" == a.body)
          var   h = "https://b3d9l-ap1.b4d9lap1.repl.co/video/humaiyun";
         else if ("9" == a.body)
-         var  h = "https://b3d9l-ap1.b4d9lap1.repl.co/video/islam";
+         var  h = "https://videos-api--xaikon4y4n.repl.co/video/islam";
          else if ("10" == a.body)
          var  h = "https://b3d9l-ap1.b4d9lap1.repl.co/video/copex";
         else if ("11" == a.body)
