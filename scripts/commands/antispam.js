@@ -1,15 +1,14 @@
 module.exports.config = {
-	name: "video2",
-	version: "1.0.3",
-	Permssion: 0,
-	credits: "Farhan",
-	description: "Random video",
- prefix: true,
-	Category: "mcs-team",
-	cooldowns: 5,
-	dependencies: {
-		axios: ""
-	}
+  name: "video2",
+  version: "0.0.2",
+  permission: 0,
+  prefix: true,
+  credits: "Nayan",
+  description: "Rendom video",
+  category: "user",
+  usages: "",
+    cooldowns: 5,
+};
 }, module.exports.run = async function({
 	event: e,
 	api: a,
