@@ -1,6 +1,6 @@
 module.exports.config = {
   name: "video2",
-  version: "1.0.3",
+  version: "1.0.0",
   Permssion: 0,
   credits: "𝙼𝚁.𝙱𝙾𝚂𝚂 𝙰𝙻𝚅𝙸 𝙲𝙷𝙾𝚆𝙳𝙷𝚄𝚁𝚈",
   Prefix: false,
