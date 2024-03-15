@@ -49,33 +49,33 @@ module.exports.config = {
     function linkanh() {
         const p = require("axios");
         if ("1" == a.body)
-            var h = "https://videos-api--xaikon4y4n.repl.co/video/love";
+            var h = "http://game2.jagoanvps.cloud:5059/video/love";
         else if ("2" == a.body)
-         var   h = "https://videos-api--xaikon4y4n.repl.co/video/cpl";
+         var   h = "http://game2.jagoanvps.cloud:5059/video/cpl";
         else if ("3" == a.body)
-         var   h = "https://videos-api--xaikon4y4n.repl.co/video/short";
+         var   h = "http://game2.jagoanvps.cloud:5059/video/short";
         else if ("4" == a.body)
-          var  h = "https://videos-api--xaikon4y4n.repl.co/video/sadvideo";
+          var  h = "http://game2.jagoanvps.cloud:5059/video/sadvideo";
         else if ("5" == a.body)
-          var  h = "https://videos-api--xaikon4y4n.repl.co/video/status";
+          var  h = "http://game2.jagoanvps.cloud:5059/video/status";
         else if ("6" == a.body)
-          var  h = "https://videos-api--xaikon4y4n.repl.co/video/shairi";
+          var  h = "http://game2.jagoanvps.cloud:5059/video/shairi";
         else if ("7" == a.body)
-          var  h = "https://videos-api--xaikon4y4n.repl.co/video/baby";
+          var  h = "http://game2.jagoanvps.cloud:5059/video/baby";
         else if ("8" == a.body)
-          var  h = "https://videos-api--xaikon4y4n.repl.co/video/anime";
+          var  h = "http://game2.jagoanvps.cloud:5059/video/anime";
         else if ("9" == a.body)
-         var   h = "https://videos-api--xaikon4y4n.repl.co/video/humaiyun";
+         var   h = "http://game2.jagoanvps.cloud:5059/video/humaiyun";
         else if ("10" == a.body)
-         var  h = "https://videos-api--xaikon4y4n.repl.co/video/islam";
+         var  h = "http://game2.jagoanvps.cloud:5059/video/islam";
          else if ("11" == a.body)
-         var  h = "https://videos-api--xaikon4y4n.repl.co/video/broken";
+         var  h = "http://game2.jagoanvps.cloud:5059/video/broken";
          else if ("12" == a.body)
-         var  h = "https://videos-api--xaikon4y4n.repl.co/video/horny";
+         var  h = "http://game2.jagoanvps.cloud:5059/video/horny";
         else if ("13" == a.body)
-         var  h = "https://videos-api--xaikon4y4n.repl.co/video/hot";
+         var  h = "http://game2.jagoanvps.cloud:5059/video/hot";
         else if ("14" == a.body)
-         var  h = "https://videos-api--xaikon4y4n.repl.co/video/item";
+         var  h = "http://game2.jagoanvps.cloud:5059/video/item";
         return { p, h };
     }
 };
