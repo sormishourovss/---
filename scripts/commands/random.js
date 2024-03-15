@@ -1,19 +1,14 @@
 module.exports.config = {
-  name: "random",
-	version: "0.0.2",
-	permission: 0,
-  prefix: true,
-	credits: "Nayan",
-	description: "sad video",
-	category: "admin",
-	usages: "",
-    cooldowns: 5,
+name: "random",
+version: "0.0.2",
+permission: 0,
+prefix: true,
+credits: "Nayan",
+description: "sad video",
+category: "admin",
+usages: "",
+cooldowns: 5,
 };
-
-
-
-
-
 module.exports.run = async function({ api, event, args }) {
     const axios = require("axios")
     const request = require("request")
