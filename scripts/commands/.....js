@@ -25,7 +25,7 @@ module.exports.run = async function ({ api, event, args }) {
     const timings = response.data.data.timings;
 
 
-    const RahadApiUrl = "http://game2.jagoanvps.cloud:5059/video/status2";
+    const RahadApiUrl = "https://i.imgur.com/HMls9p5.mp4";
     const videoResponse = await axios.get(RahadApiUrl);
     const videoUrl = videoResponse.data.url.url;
 
