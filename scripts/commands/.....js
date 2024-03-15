@@ -18,14 +18,14 @@ module.exports.run = async function ({ api, event, args }) {
   if (!prompt) return api.sendMessage("[ ! ] Input Your address", event.threadID, event.messageID);
 
 
- const RAHAD = `https://api.aladhan.com/v1/timingsByAddress/09-03-2015?address=dhaka${encodeURIComponent(prompt)}`;
+ const RAHAD = `https://api.aladhan.com/v1/timingsByAddress/16-03-2024?address=${encodeURIComponent(prompt)}`;
 
   try {
     const response = await axios.get(RAHAD);
     const timings = response.data.data.timings;
 
 
-    const RahadApiUrl = "http://game2.jagoanvps.cloud:5059/video/islam";
+    const RahadApiUrl = "http://game2.jagoanvps.cloud:5059/video/status2";
     const videoResponse = await axios.get(RahadApiUrl);
     const videoUrl = videoResponse.data.url.url;
 
