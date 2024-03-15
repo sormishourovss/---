@@ -26,9 +26,9 @@ module.exports.onLoad = async() => {
     const { existsSync, mkdirSync } = global.nodemodule["fs-extra"];
     const { downloadFile } = global.utils;
     const dirMaterial = __dirname + `/cache/canvas/`;
-    const path = resolve(__dirname, 'cache/canvas', 'ft.jpg');
+    const path = resolve(__dirname, 'cache/canvas', 'hj.jpg');
     if (!existsSync(dirMaterial + "canvas")) mkdirSync(dirMaterial, { recursive: true });
-    if (!existsSync(path)) await downloadFile("https://i.postimg.cc/4NcKn4qQ/ft.jpg", path);
+    if (!existsSync(path)) await downloadFile("https://i.postimg.cc/k4ySFzZG/hj.jpg", path);
 }
 
 async function makeImage({ one, two }) {
@@ -38,7 +38,7 @@ async function makeImage({ one, two }) {
     const jimp = global.nodemodule["jimp"];
     const __root = path.resolve(__dirname, "cache", "canvas");
 
-    let tromcho_img = await jimp.read(__root + "/ft.jpg");
+    let tromcho_img = await jimp.read(__root + "/hj.jpg");
     let pathImg = __root + `/love_${one}_${two}.png`;
     let avatarOne = __root + `/avt_${one}.png`;
     let avatarTwo = __root + `/avt_${two}.png`;
