@@ -27,14 +27,6 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   if ((event.body.toLowerCase() == "chup") || (event.body.toLowerCase() == "stop") || (event.body.toLowerCase() == "chup ho ja") || (event.body.toLowerCase() == "chup kor")) {
      return api.sendMessage("Nh ami চুপ থাকবো না.😼 রিফাত বস আমারে কথা বলতে বলছে🤭", threadID);
    };
-
-   if ((event.body.toLowerCase() == "মায়া") || (event.body.toLowerCase() == "@jan nati")) {
-     return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস রিফাত এর বউ এর নাম..!😠🥰⛏️", threadID);
-   };
-
-   if ((event.body.toLowerCase() == "@jan nati") || (event.body.toLowerCase() == "@jan nati")) {
-     return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস রিফাত এর বউ এর নাম..!😠🥰⛏️", threadID);
-   };
   
     if ((event.body.toLowerCase() == "রিফাত আই লাভ ইউ") || (event.body.toLowerCase() == "রিফাত জান") || (event.body.toLowerCase() == "রিফাত লুচ্চা") || (event.body.toLowerCase() == "রিফাত বেবি") || (event.body.toLowerCase() == "rifat i love you") || (event.body.toLowerCase() == "রিফাত উম্মা")) {
      return api.sendMessage("এগুলা বলিস না মায়া ভাবি শুলনে খবর আছে তোর..!🌚🌶️🍆⛏️", threadID);
