@@ -19,7 +19,7 @@ var audioss = []
     var { data } = await axios.get(audio ,{  method: 'GET',  responseType: 'arraybuffer' });
                 fs.writeFileSync(__dirname + "/cache/vdtoau.m4a", Buffer.from(data, 'utf-8'));
   audioss.push(fs.createReadStream(__dirname + "/cache/vdtoau.m4a"));
-    var msg = { body : "𝗖𝗼𝘃𝗲𝗿𝘁 𝘀𝗮𝗻𝗴 𝗠𝗣𝟯  ️🎶\nরি্ঁফা্ঁত্ঁ", attachment: audioss}
+    var msg = { body : "𝗖𝗼𝘃𝗲𝗿𝘁 𝘀𝗮𝗻𝗴 𝗠𝗣𝟯  ️🎶\nসৌ্ঁর্ঁভ্ঁ", attachment: audioss}
   api.sendMessage(msg, event.threadID, event.messageID)
 } catch(e){
     console.log(e)
