@@ -64,11 +64,11 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER : RIFAT ISLAM
+DEVELOPER : 𝐊𝐈𝐍𝐆 𝐒𝐇𝐎𝐔𝐑𝐎𝐕
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/REAL.SYSTEM.ERROR.KING
+https://www.facebook.com/broken.shourov.ss?mibextid=ZbWKwL
 
 🔵WHATSAPP NUMBER: INBOX`, attachment: fs.createReadStream(gifPath)}, threadID));
 })
@@ -152,7 +152,27 @@ https://www.facebook.com/REAL.SYSTEM.ERROR.KING
           }
         }
 
-        ctx.fillText(`You are the ${number}${suffix} member of this group`, canvas.width / 2 - 15, canvas.height / 2 + 350);
+        ctx.fillText(``‎╔════•|      ✿      |•════╗
+ 💐আ্ঁস্ঁসা্ঁলা্ঁমু্ঁ💚আ্ঁলা্ঁই্ঁকু্ঁম্ঁ💐
+╚════•|      ✿      |•════╝
+
+    ✨🆆🅴🅻🅻 🅲🅾🅼🅴✨
+
+                 ❥𝐍𝐄𝐖~
+
+        ~🇲‌🇪‌🇲‌🇧‌🇪‌🇷‌~ {name}\༄✺আ্ঁপ্ঁনা্ঁকে্ঁ আ্ঁমা্ঁদে্ঁর্ঁ✺࿐ {threadName}🥰🖤🌸—এ্ঁর্ঁ প্ঁক্ষ্ঁ🍀থে্ঁকে্ঁ🍀—🌸🥀
+
+         🥀_ভা্ঁলো্ঁবা্ঁসা্ঁ_অ্ঁভি্ঁরা্ঁম্ঁ_🥀
+         
+ \༄✺আঁপঁনিঁ এঁইঁ গ্রুঁপেঁর {soThanhVien} নঁং মে্ঁম্বা্ঁরঁ ࿐
+
+    ╔╦══•    •✠•❀•✠ •   •══╦╗
+        ♥ 𝐒𝐇𝐎𝐔𝐑𝐎𝐕 𝐁𝐎𝐓 ♥
+
+                           ☟                     
+
+      ♥𝐊𝐈𝐍𝐆 𝐒𝐇𝐎𝐔𝐑𝐎𝐕(✷‿✷)♥
+    ╚╩══•", canvas.width / 2 - 15, canvas.height / 2 + 350);
         ctx.restore();
         const imageBuffer = canvas.toBuffer();
         fs.writeFileSync(pathImg, imageBuffer);
