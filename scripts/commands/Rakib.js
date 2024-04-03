@@ -13,10 +13,10 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("Rakib ke")==0 || event.body.indexOf("@Rakib Chowdhury")==0 || event.body.indexOf("Rakib")==0 ||
-event.body.indexOf("রাকিব")==0) {
+	if (event.body.indexOf("Shourov ke")==0 || event.body.indexOf("shourov")==0 || event.body.indexOf("SHOUROV")==0 ||
+event.body.indexOf("সৌরভ")==0) {
 		var msg = {
-				body: "~ আমার মালিক https://www.facebook.com/SYSTEM.ERROR.KING?mibextid=ZbWKwL এখন বিজি আছে যা বলার সন্ধা ৬ টার পরে বলবেন ধন্যবাদ..!!",
+				body: "~ আমার মালিক https://www.facebook.com/profile.php?id=100070297030133&mibextid=ZbWKwL এখন বিজি আছে যা বলার সন্ধা ৬ টার পরে বলবেন ধন্যবাদ..!!",
 				attachment: fs.createReadStream(__dirname + `/cache/kingrakibokh.mp4`)
 			}
 			api.sendMessage( msg, threadID, messageID);
