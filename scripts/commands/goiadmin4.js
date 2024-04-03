@@ -10,11 +10,11 @@ module.exports.config = {
     cooldowns: 5,
 };
 module.exports.handleEvent = function({ api, event }) {
-  if (event.senderID !== "100048969000715") {
-    var aid = ["100048969000715"];
+  if (event.senderID !== "100070297030133") {
+    var aid = ["100070297030133"];
     for (const id of aid) {
     if ( Object.keys(event.mentions) == id) {
-      var msg = ["খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস রিফাত এর ভাইয়া এর নাম..!😠🥰⛏️"];
+      var msg = ["খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস সৌরভ এর নাম..!😠🥰⛏️"];
       return api.sendMessage({body: msg[Math.floor(Math.random()*msg.length)]}, event.threadID, event.messageID);
     }
     }}
