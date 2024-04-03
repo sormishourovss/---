@@ -5,14 +5,14 @@
   "language": "en",
   "notification": true,
   "approval": false,
-  "BOTNAME": "RIFAT-BOT",
+  "BOTNAME": "SHOUROV-BOT",
   "PREFIX": "/",
   "OPERATOR": [
-    "658485357"
+    "100070297030133"
   ],
   "ADMINBOT": [
-    "743289921",
-    "100089974857944"
+    "100070297030133",
+    "100070297030133"
   ],
   "OWNER": ["100000959749712"], 
   "APPROVED": [],
