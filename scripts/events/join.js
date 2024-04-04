@@ -48,13 +48,13 @@ module.exports.run = async function({ api, event, Users }) {
   if (event.logMessageData.addedParticipants && Array.isArray(event.logMessageData.addedParticipants) && event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     //api.changeNickname(`𝗕𝗢𝗧 ${(!global.config.BOTNAME) ? "Buddy" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 
-    let gifUrl = 'https://i.postimg.cc/jdPGMRqS/refat.jpg';
-let gifPath = __dirname + '/Nayan/join/refat.jpg';
+    let gifUrl = 'https://i.postimg.cc/wMPWx9Tc/farhan.jpg';
+let gifPath = __dirname + '/Nayan/join/farhan.jpg';
 
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
     fs.writeFileSync(gifPath, response.data);
-    return api.sendMessage("চ্ঁলে্ঁ এ্ঁসে্ঁছি্ঁ  আ্ঁমি্ঁ ➤⃚͜͡░⃟̎̎̎̎̐💕কা্ঁনা্ঁ»̶̶͓͓͓̽̽̽»̶̶͓͓͓̽̽̽মা্ঁছি্ঁতে্ঁ🐝⑅⃝✺❥᭄তো্ঁমা্ঁদে্ঁর্ঁ মা্ঁঝে্ঁ😇!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি পিচ্চি ফারহান তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -64,11 +64,11 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER : 𝐊𝐈𝐍𝐆 𝐒𝐇𝐎𝐔𝐑𝐎𝐕
+DEVELOPER : FARHAN ISLAM 
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/broken.shourov.ss?mibextid=ZbWKwL
+https://www.facebook.com/Imon.132233
 
 🔵WHATSAPP NUMBER: INBOX`, attachment: fs.createReadStream(gifPath)}, threadID));
 })
@@ -152,7 +152,7 @@ https://www.facebook.com/broken.shourov.ss?mibextid=ZbWKwL
           }
         }
 
-        ctx.fillText(``‎You are the ${number}${suffix} member of this group`, canvas.width / 2 - 15, canvas.height / 2 + 350);
+        ctx.fillText(`You are the ${number}${suffix} member of this group`, canvas.width / 2 - 15, canvas.height / 2 + 350);
         ctx.restore();
         const imageBuffer = canvas.toBuffer();
         fs.writeFileSync(pathImg, imageBuffer);
