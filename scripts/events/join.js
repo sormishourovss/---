@@ -48,7 +48,7 @@ module.exports.run = async function({ api, event, Users }) {
   if (event.logMessageData.addedParticipants && Array.isArray(event.logMessageData.addedParticipants) && event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     //api.changeNickname(`𝗕𝗢𝗧 ${(!global.config.BOTNAME) ? "Buddy" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 
-    let gifUrl = 'https://i.postimg.cc/wMPWx9Tc/farhan.jpg';
+    let gifUrl = 'https://i.postimg.cc/8zb22P6W/Picsart-24-02-28-22-24-49-778.jpg';
 let gifPath = __dirname + '/Nayan/join/farhan.jpg';
 
 axios.get(gifUrl, { responseType: 'arraybuffer' })
@@ -64,13 +64,13 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER : 𝐊𝐈𝐍𝐆 𝐒𝐇𝐎𝐔𝐑𝐎𝐕
+DEVELOPER : 𝐊𝐈𝐍𝐆  𝐒𝐇𝐎𝐔𝐑𝐎𝐕
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/broken.shourov.ss
+https://www.facebook.com/profile.php?id=100070297030133&mibextid=ZbWKwL
 
-🔵WHATSAPP NUMBER: INBOX`, attachment: fs.createReadStream(gifPath)}, threadID));
+🔵WHATSAPP NUMBER: 01709281334`, attachment: fs.createReadStream(gifPath)}, threadID));
 })
 .catch(error => {
     console.error(error);
@@ -159,7 +159,7 @@ https://www.facebook.com/broken.shourov.ss
         abx.push(fs.createReadStream(__dirname + `/Nayan/join/${o}.png`))
       }
       memLength.sort((a, b) => a - b);
-      (typeof threadData.customJoin == "undefined") ? msg = ``‎╔════•|      ✿      |•════╗
+      (typeof threadData.customJoin == "undefined") ? msg = `‎╔════•|      ✿      |•════╗
  💐আ্ঁস্ঁসা্ঁলা্ঁমু্ঁ💚আ্ঁলা্ঁই্ঁকু্ঁম্ঁ💐
 ╚════•|      ✿      |•════╝
 
@@ -174,12 +174,12 @@ https://www.facebook.com/broken.shourov.ss
  \༄✺আঁপঁনিঁ এঁইঁ গ্রুঁপেঁর {soThanhVien} নঁং মে্ঁম্বা্ঁরঁ ࿐
 
     ╔╦══•    •✠•❀•✠ •   •══╦╗
-        ♥ 𝐂𝐄𝐎 ♥
+        ♥    𝐂𝐄𝐎    ♥
 
                            ☟                     
 
-      ♥ "𝐒𝐇𝐎𝐔𝐑𝐎𝐕"(✷‿✷)♥
-    ╚╩══•" ""\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
+      ♥𝐊𝐈𝐍𝐆 𝐒𝐇𝐎𝐔𝐑𝐎𝐕(✷‿✷)♥
+    ╚╩══•" "\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
       var nameAuthor = await Users.getNameUser(event.author)
       msg = msg
         .replace(/\{iduser}/g, iduser.join(', '))
@@ -200,4 +200,4 @@ https://www.facebook.com/broken.shourov.ss
       }
     } catch (e) { return console.log(e) };
   }
-}
+    }
