@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "rifat2",
+  name: "shourov2",
   version: "1.0.0",
   permission: 0,
   credits: "ryuko",
@@ -19,7 +19,7 @@ const time = process.uptime(),
     seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.postimg.cc/4xYVK00r/417818702-1042410460191416-904330810786117240-n.jpg"];
+var link = ["https://i.postimg.cc/13j22KWT/Messenger-creation-91412df6-6e58-45b4-967c-4f320da81804.jpg"];
 
 var callback = () => api.sendMessage({body:`✿⃟✺.🅽🅾🆃🅸🅲.✺⃟✿
 
@@ -41,9 +41,9 @@ var callback = () => api.sendMessage({body:`✿⃟✺.🅽🅾🆃🅸🅲.✺�
 ✺⃟✿-ভা্ঁলো্ঁবা্ঁসা্ঁ-আ্ঁন্ঁলি্ঁমি্ঁটে্ঁড্ঁ-✿⃟✺
 
 ╔╦══•    •✠•❀•✠ •   •══╦╗
-♥    𝙂𝙧𝙤𝙪𝙥☬𝙁𝙤𝙪𝙣𝙙𝙚𝙧   ♥
+♥    𝙂𝙧𝙤𝙪𝙥☬𝐂𝐄𝐎   ♥
                       ☟                     
-❤️⚘ཻ͜͡Alex Rishan Aqualit⚘ཻ͜͡ ♥
+❤️⚘ཻ͜͡𝐊𝐢𝐧𝐠_𝐒𝐡𝐨𝐮𝐫𝐨𝐯⚘ཻ͜͡ ♥
 ╚╩══•    •✠•❀•✠ •    •══╩╝`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
    };
